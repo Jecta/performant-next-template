@@ -5,6 +5,7 @@ const nextConfig = {}
 module.exports = million.next(
   nextConfig
   , {
-    auto: { rsc: true, mute: true }
+    auto: { rsc: true },
+    mute: true,
   },
 )
