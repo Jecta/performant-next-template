@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome lint"
+    "lint": "biome check --apply-unsafe ./src"
   },
   "dependencies": {
     "million": "latest",
